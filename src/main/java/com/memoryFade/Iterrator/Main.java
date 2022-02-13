@@ -1,4 +1,4 @@
-package src.main.java.com.memoryFade;
+package src.main.java.com.memoryFade.Iterrator;
 
 
 public class Main {
