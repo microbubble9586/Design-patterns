@@ -1,4 +1,4 @@
-package src.main.java.com.memoryFade.Adapter;
+package src.main.java.com.memoryFade.Adapter.basicOnExtends;
 
 /**
  * @author mf

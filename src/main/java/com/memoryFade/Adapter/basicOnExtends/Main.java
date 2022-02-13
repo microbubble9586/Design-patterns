@@ -1,4 +1,4 @@
-package src.main.java.com.memoryFade.Adapter;
+package src.main.java.com.memoryFade.Adapter.basicOnExtends;
 
 public class Main  {
     public static void main(String[] args) {
