@@ -1,7 +1,7 @@
-package src.main.java.com.memoryFade.Factory_MEthod.idcard;
+package src.main.java.com.memoryFade.Factory_Method.idcard;
 
-import src.main.java.com.memoryFade.Factory_MEthod.framework.Factory;
-import src.main.java.com.memoryFade.Factory_MEthod.framework.Product;
+import src.main.java.com.memoryFade.Factory_Method.framework.Factory;
+import src.main.java.com.memoryFade.Factory_Method.framework.Product;
 
 import java.util.ArrayList;
 import java.util.List;

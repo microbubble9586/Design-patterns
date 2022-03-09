@@ -1,4 +1,4 @@
-package src.main.java.com.memoryFade.Factory_MEthod.framework;
+package src.main.java.com.memoryFade.Factory_Method.framework;
 
 public abstract class Product {
     public abstract void use();

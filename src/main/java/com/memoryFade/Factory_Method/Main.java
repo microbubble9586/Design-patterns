@@ -1,8 +1,8 @@
-package src.main.java.com.memoryFade.Factory_MEthod;
+package src.main.java.com.memoryFade.Factory_Method;
 
-import src.main.java.com.memoryFade.Factory_MEthod.framework.Factory;
-import src.main.java.com.memoryFade.Factory_MEthod.framework.Product;
-import src.main.java.com.memoryFade.Factory_MEthod.idcard.IDCardFactory;
+import src.main.java.com.memoryFade.Factory_Method.framework.Factory;
+import src.main.java.com.memoryFade.Factory_Method.framework.Product;
+import src.main.java.com.memoryFade.Factory_Method.idcard.IDCardFactory;
 
 public class Main {
     public static void main(String[] args) {

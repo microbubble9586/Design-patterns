@@ -1,6 +1,6 @@
-package src.main.java.com.memoryFade.Factory_MEthod.idcard;
+package src.main.java.com.memoryFade.Factory_Method.idcard;
 
-import src.main.java.com.memoryFade.Factory_MEthod.framework.Product;
+import src.main.java.com.memoryFade.Factory_Method.framework.Product;
 
 public class IDCard extends Product {
     private String owner;
