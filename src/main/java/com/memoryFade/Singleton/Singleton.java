@@ -1,18 +1,20 @@
 package src.main.java.com.memoryFade.Singleton;
 
-/**
- * @author memoryFade
- * @version 1.0
- * @date 2022/3/9 10:24
- */
-public class Singleton {
-    private static Singleton singleton = new Singleton();
 
-    private Singleton() {
-        System.out.println("生成实例");
+public class Singleton {
+    public Singleton() {
     }
 
-    public static Singleton getInstance() {
-        return singleton;
+    private volatile static Singleton uniqueInstance;
+
+    public static Singleton getUniqueInstance() {
+        if (uniqueInstance == null) {
+            synchronized (Singleton.class) {
+                if (uniqueInstance == null) {
+                    uniqueInstance = new Singleton();
+                }
+            }
+        }
+        return uniqueInstance;
     }
 }
