@@ -5,7 +5,7 @@ public class DigitalObserver implements Observer {
     public void update(NumberGenerator numberGenerator) {
         System.out.println("DigitalObserver:" + numberGenerator.getNumber());
         try {
-            Thread.sleep(100);
+            Thread.sleep(1000);
         } catch (InterruptedException e){
             e.printStackTrace();
         }
