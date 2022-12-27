@@ -8,8 +8,8 @@ package src.main.java.com.memoryFade.Singleton;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Start.");
-        Singleton singleton = Singleton.getInstance();
-        Singleton singleton1 = Singleton.getInstance();
+        Singleton singleton = Singleton.getUniqueInstance();
+        Singleton singleton1 = Singleton.getUniqueInstance();
         if (singleton == singleton1){
             System.out.println("同一个实例");
         } else {
